@@ -1,0 +1,17 @@
+{
+  "name": "fix-arc-30",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create": "AWS_PROFILE=smallwins AWS_REGION=us-east-2 arc-create",
+    "deploy": "AWS_PROFILE=smallwins AWS_REGION=us-east-2 arc-deploy",
+    "start": "NODE_ENV=testing AWS_PROFILE=smallwins AWS_REGION=us-east-2 arc-sandbox"
+  },
+  "keywords": [],
+  "author": "Brian LeRoux <b@brian.io>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@architect/workflows": "^2.2.2"
+  }
+}
